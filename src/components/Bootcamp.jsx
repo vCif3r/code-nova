@@ -1,13 +1,16 @@
+import img1 from "./../assets/web-dev-ty.jpg"
+import img2 from "./../assets/frontend-development-tools.png"
+
 const bootcamps = [
     {
         title: "Fundamentos del desarrollo web",
         description: "¡Aprende los fundamentos del desarrollo web desde cero! Este curso cubre HTML, CSS y JavaScript, ayudándote a comprender cómo se crean y funcionan los sitios web. Perfecto para principiantes que buscan iniciarse en la programación.",
-        image: "/src/assets/web-dev-ty.jpg"
+        image: img1
     },
     {
         title: "Desarrollo web Front-End",
         description: "Aprende a crear sitios web impactantes e interactivos con HTML, CSS y JavaScript. Este curso cubre frameworks front-end modernos como React para ayudarte a crear aplicaciones web intuitivas.",
-        image: "/src/assets/frontend-development-tools.png"
+        image: img2
     },
     {
         title: "Desarrollo Back-End",
